@@ -1,3 +1,2 @@
-# Test-Java
-Hello
-# Test-Java
+Hello. This a test repositery.
+Bah.
