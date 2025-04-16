@@ -4,5 +4,17 @@
 </HEAD>
 <BODY>
 Here's my first Java Applet: <BR><BR>
+
+<script src="http://www.java.com/js/deployJava.js"></script>
+<script>
+    var attributes = {
+        code:'FirstApplet.class',
+    width:250, height:100} ;
+    var parameters = {}; // does the Applet take parameters?
+    var version = '1.6' ; // does the Applet require a minimum version of Java
+    deployJava.runApplet(attributes, parameters, version);
+</script>
+This browser has passed the applet.
+
 </Body>
 </HTML>
